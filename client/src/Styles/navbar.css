@@ -1,0 +1,94 @@
+/* Navbar Container */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    font-family: sans-serif;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+/* Left Side (Brand and Subtitle) */
+
+
+/* .navbar-left {
+    display: flex;
+    align-items: center;
+    background-color: #ea1717;
+} */
+
+
+/* .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    
+    text-decoration: none;
+    background-color: #ea1717;
+} */
+
+
+/* .navbar-subtitle {
+    font-size: 14px;
+    color: #666;
+    
+    margin-left: 10px;
+} */
+
+
+/* Right Side (Links) */
+
+
+/* .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+    background-color: #ea1717;
+} */
+
+
+/* .navbar-link {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+    
+    text-decoration: none;
+} */
+
+
+/* .navbar-link:hover {
+    color: #007bff;
+    /* Hover color */
+
+
+/* } */
+
+
+/* Icons */
+
+
+/* .navbar-link svg {
+    margin-right: 5px;
+   
+} */
+
+
+/* Cart Amount */
+
+
+/* .cart-amount {
+    margin-left: 5px;
+    font-weight: bold;
+    color: #007bff;
+    
+} */
