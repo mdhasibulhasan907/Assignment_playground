@@ -1,9 +1,9 @@
 
 
-const section8 = () => {
+const Section8 = () => {
   return (
     <div>section8</div>
   )
 }
 
-export default section8
+export default Section8
