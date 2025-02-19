@@ -1,0 +1,51 @@
+.card {
+    width: 200px;
+    padding: 15px;
+    border: 2px solid transparent;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card.hover {
+    border: 2px dotted #333;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-content h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.card-content p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.section1_containe {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows wrapping to the next line if there's not enough space */
+    gap: 20px;
+    /* Adds space between the cards */
+    justify-content: flex-start;
+    /* Aligns cards to the start of the container */
+    align-items: stretch;
+    /* Ensures all cards have the same height */
+}
+
+.section1_container>div {
+    flex: 1 1 calc(25% - 20px);
+    /* Adjusts the width of each card */
+    max-width: calc(25% - 20px);
+    /* Ensures cards don't exceed 25% width */
+    box-sizing: border-box;
+    /* Ensures padding and border are included in the width */
+}
