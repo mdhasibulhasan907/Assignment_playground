@@ -29,23 +29,22 @@
     transition: color 0.3s ease-in-out;
 }
 
-.section1_containe {
+.section1_container {
     display: flex;
-    flex-wrap: wrap;
-    /* Allows wrapping to the next line if there's not enough space */
+    justify-content: space-between;
+    /* Evenly distributes the cards */
     gap: 20px;
-    /* Adds space between the cards */
-    justify-content: flex-start;
-    /* Aligns cards to the start of the container */
-    align-items: stretch;
-    /* Ensures all cards have the same height */
+    /* Adds spacing between the cards */
+    flex-wrap: wrap;
+    /* Allows wrapping on smaller screens */
+    padding: 20px;
 }
 
 .section1_container>div {
-    flex: 1 1 calc(25% - 20px);
-    /* Adjusts the width of each card */
-    max-width: calc(25% - 20px);
-    /* Ensures cards don't exceed 25% width */
-    box-sizing: border-box;
-    /* Ensures padding and border are included in the width */
+    flex: 1;
+    /* Ensures equal width for each card */
+    min-width: 200px;
+    /* Prevents cards from shrinking too much */
+    text-align: center;
+    /* Centers the content inside each card */
 }
