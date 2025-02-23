@@ -1,8 +1,9 @@
+import ImageGallery from "../../components/ImageGallery"
 
 
 const Section9 = () => {
   return (
-    <div>section9</div>
+    <ImageGallery/>
   )
 }
 
